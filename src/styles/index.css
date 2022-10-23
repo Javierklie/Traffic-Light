@@ -1,12 +1,72 @@
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
 
-*/
+
+
+
+}
+.caja1 {
+    background-color: black;
+    width: 15px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+
+
+
+}
+
+.Cajacontenedorabase {
+    background-color: black;
+    height: 420px;
+    width: 180px;
+    border-radius: 10px;
+    margin: auto;
+    border-style: solid;
+    
+}
+
+.Cajacontenedora {
+    background-color: black;
+    height: 350px;
+    width: 160px;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+
+.light {
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+#red {
+    background-color: red;
+
+
+}
+
+#yellow {
+    background-color: orange;
+
+}
+
+#green {
+    background-color: green;
+    
+}
+
+.active {
+    box-shadow: 0px 0px 20px 5px white;
+}
